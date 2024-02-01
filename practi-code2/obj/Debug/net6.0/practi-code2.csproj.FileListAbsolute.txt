@@ -14,3 +14,20 @@ C:\Users\User\Documents\פרקטיקוד\practi-code2\practi-code2\obj\Debug\net
 C:\Users\User\Documents\פרקטיקוד\practi-code2\practi-code2\obj\Debug\net6.0\ref\practi-code2.dll
 C:\Users\User\Documents\פרקטיקוד\practi-code2\practi-code2\bin\Debug\net6.0\seed\HtmlTags.json
 C:\Users\User\Documents\פרקטיקוד\practi-code2\practi-code2\bin\Debug\net6.0\seed\HtmlVoidTags.json
+Y:\Groups\Group_1\שפירא  מרים\פרקטיקוד2\practicode2\practi-code2\bin\Debug\net6.0\practi-code2.exe
+Y:\Groups\Group_1\שפירא  מרים\פרקטיקוד2\practicode2\practi-code2\bin\Debug\net6.0\seed\HtmlTags.json
+Y:\Groups\Group_1\שפירא  מרים\פרקטיקוד2\practicode2\practi-code2\bin\Debug\net6.0\seed\HtmlVoidTags.json
+Y:\Groups\Group_1\שפירא  מרים\פרקטיקוד2\practicode2\practi-code2\bin\Debug\net6.0\practi-code2.deps.json
+Y:\Groups\Group_1\שפירא  מרים\פרקטיקוד2\practicode2\practi-code2\bin\Debug\net6.0\practi-code2.runtimeconfig.json
+Y:\Groups\Group_1\שפירא  מרים\פרקטיקוד2\practicode2\practi-code2\bin\Debug\net6.0\practi-code2.dll
+Y:\Groups\Group_1\שפירא  מרים\פרקטיקוד2\practicode2\practi-code2\bin\Debug\net6.0\practi-code2.pdb
+Y:\Groups\Group_1\שפירא  מרים\פרקטיקוד2\practicode2\practi-code2\obj\Debug\net6.0\practi-code2.csproj.AssemblyReference.cache
+Y:\Groups\Group_1\שפירא  מרים\פרקטיקוד2\practicode2\practi-code2\obj\Debug\net6.0\practi-code2.GeneratedMSBuildEditorConfig.editorconfig
+Y:\Groups\Group_1\שפירא  מרים\פרקטיקוד2\practicode2\practi-code2\obj\Debug\net6.0\practi-code2.AssemblyInfoInputs.cache
+Y:\Groups\Group_1\שפירא  מרים\פרקטיקוד2\practicode2\practi-code2\obj\Debug\net6.0\practi-code2.AssemblyInfo.cs
+Y:\Groups\Group_1\שפירא  מרים\פרקטיקוד2\practicode2\practi-code2\obj\Debug\net6.0\practi-code2.csproj.CoreCompileInputs.cache
+Y:\Groups\Group_1\שפירא  מרים\פרקטיקוד2\practicode2\practi-code2\obj\Debug\net6.0\practi-code2.dll
+Y:\Groups\Group_1\שפירא  מרים\פרקטיקוד2\practicode2\practi-code2\obj\Debug\net6.0\refint\practi-code2.dll
+Y:\Groups\Group_1\שפירא  מרים\פרקטיקוד2\practicode2\practi-code2\obj\Debug\net6.0\practi-code2.pdb
+Y:\Groups\Group_1\שפירא  מרים\פרקטיקוד2\practicode2\practi-code2\obj\Debug\net6.0\practi-code2.genruntimeconfig.cache
+Y:\Groups\Group_1\שפירא  מרים\פרקטיקוד2\practicode2\practi-code2\obj\Debug\net6.0\ref\practi-code2.dll

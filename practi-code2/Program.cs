@@ -2,7 +2,7 @@
 using practi_code2;
 using System.Text.RegularExpressions;
 
-var html = await Load("https://hebrewbooks.org/beis");
+var html = await Load("https://learn.malkabruk.co.il/practicode/projects/pract-2/#_5");
 var cleanHtml = new Regex("[\\r\\n\\t]").Replace(new Regex("\\s{2,}").Replace(html, ""), "");
 //new Regex("\\s").Replace(html, "");
 var htmlLines = new Regex("<(.*?)>").Split(cleanHtml).Where(s => s.Length > 0).ToArray();
@@ -13,6 +13,9 @@ HtmlElement rootElement = NewChild(htmlLines[1].Split(' ')[0], null, htmlLines[1
 BuildTree(rootElement, htmlLines);
 Console.WriteLine("htmlTree: ");
 PrintTree(rootElement,0);
+var list = rootElement.FindElements(Selector.ParseSelector("footer.md-footer nav"));
+
+
 static void BuildTree(HtmlElement root,string[] htmlLines)
 {
   HtmlElement current = root;
@@ -58,32 +61,26 @@ static HtmlElement NewChild(string tagNames,HtmlElement root, string line)
 
   return child;
 }
+
 static void PrintTree(HtmlElement node, int depth)
 {
-  if (node != null)
-  {
-    // Print current node
-    Console.WriteLine($"{new string(' ', depth * 2)}<{node.Name}>" + node);
-
-    // Print children
-    foreach (var child in node.Children)
+    if (node != null)
     {
-      PrintTree(child, depth + 1);
-    }
+        // Print current node
+        Console.WriteLine($"{new string(' ', depth * 2)}<{node.Name}>" + node);
 
-    // Print closing tag
-    Console.WriteLine($"{new string(' ', depth * 2)}</{node.Name}>");
-  }
+        // Print children
+        foreach (var child in node.Children)
+        {
+            PrintTree(child, depth + 1);
+        }
+
+        // Print closing tag
+        Console.WriteLine($"{new string(' ', depth * 2)}</{node.Name}>");
+    }
 }
-//static void PrintTree(HtmlElement root)
-//{
-  
-//  foreach (var child in root.Childern)
-//  {
-//    Console.WriteLine($"{child}  " );
-//    PrintTree(child);
-//  }
-//}
+
+
 
 Console.ReadLine();
 
